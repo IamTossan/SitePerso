@@ -1,4 +1,4 @@
 # SitePerso
 
 ce projet est un essai pour un premier site perso.
-il comprendra du html, du css et du javascript dans un premier temps.
+Il permettra de me présenter afin de pouvoir démarcher.
