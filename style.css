@@ -1,0 +1,314 @@
+body {
+    font-family: verdana;
+    margin: 0;
+    background-color: #bbb;
+}
+
+#wrapper {
+    width: 100%;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+/****** HEADER ******/
+
+header {
+    padding: 10px;
+    background-color: #032446;
+}
+
+header ul {
+    
+    list-style-type: none;
+    text-align: right;
+    margin-right: 10px;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #376494;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+header a:hover {
+    color: #ffa239;
+}
+
+/****** BANNER *******/
+
+#banner {
+    position: relative;
+    width: 100%;
+    max-height: 300px;
+    overflow: hidden;
+}
+#banner img {
+    width: 100%;
+}
+
+#banner div {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #fff;
+}
+
+#banner div a {
+    background-color: #06315e;
+    border-radius: 7px;
+    text-decoration: none;
+    height: 30px;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+#banner div a:hover {
+    color: #ffa239;
+}
+
+/****** SECTION COMPETENCES ******/
+
+#competences h2 {
+    display: block;
+    margin: 20px 40px;
+    color: #06315e;
+    border-bottom: 2px solid #ffa239;
+}
+
+#competences div {
+    width: 32%;
+    float: left;
+    height: 200px;
+    text-align: center;
+}
+
+#competences div:nth-child(2), #competences div:nth-child(5), #competences div:nth-child(8){
+    margin: 0 2%;
+}
+
+#competences:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#competences img {
+    margin: 10px auto;
+    height: 80px;
+    width: 80px;
+}
+
+#competences p {
+    color: #06315e;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+/***** SECTION BIO *****/
+
+#bio {
+    
+    background: #06315e;
+    overflow: hidden;
+}
+
+#bio h2 {
+    margin: 20px 40px;
+    color: #b1daee;
+    border-bottom: 2px solid #ffa239;
+}
+
+#bio p {
+    margin: 5px 15px 15px 10%;
+    width: 80%;
+    font-size: 1.2em;
+    color: #b1daee;
+    text-indent: 40px;
+    font-family: cursive;
+}
+
+/******* FOOTER ********/
+
+footer {
+    padding: 10px;
+    background-color: #032446;
+}
+
+footer h3 {
+    margin: 20px 40px;
+    color: #b1daee;
+    border-bottom: 2px solid #ffa239;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer a {
+    margin-left: 30px;
+    color: #376494;
+    text-decoration: none;
+}
+
+#email li:nth-child(1), #email li:nth-child(2), #email li:nth-child(4), #email li:nth-child(5) {
+    
+    margin: 4px 0 4px 30px;
+    color: #376494;
+}
+
+#email li:nth-child(5) {
+    margin-left: 55px;
+}
+
+footer a:hover {
+    color: #ffa239;
+}
+
+#code {
+    width: 40%;
+    float: left;
+}
+
+#contact {
+    width: 40%;
+    float: right;
+}
+
+#social {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#social li {
+    float: left;
+}
+
+#contact img {
+    width: 20px;
+    height: 20px;
+}
+
+#email img {
+    position: relative;
+    top: 4px;
+    margin-right: 5px;
+}
+
+footer:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+/******* RESPONSIVE DESIGNS ********/
+
+
+@media screen and (max-width: 900px) {
+    
+    header li {
+        font-size: 0.8em;
+    }
+    
+    #banner h1 {
+        font-size: 1.50em;
+    }
+    
+    #banner a {
+        font-size: 0.8em;
+    }
+    
+    #competences div {
+        width: 46%;
+        margin: 0 1%;
+        height: 150px;
+    }
+    
+    h2 {
+        font-size: 1.25em;
+    }
+    
+    #bio p {
+        font-size: 1em;
+    }
+    
+    #code {
+        width: 50%;
+    }
+    
+    #contact {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    
+    header {
+        display: none;
+    }
+    
+    #banner {
+        max-height: 200px;
+    }
+    
+    #banner h1 {
+        font-size: 0.8em;
+    }
+    
+    #banner div a {
+        height: 20px;
+        padding: 5px 8px;
+        font-size: 0.7em;
+    }
+    
+    h2 {
+        font-size: 1em;
+    }
+    
+    #competences div {
+        width: 100%;
+        margin: 20px 20px;
+        padding-left: 5%;
+        height: 80px;
+        float: none;
+    }
+    
+    #competences div:nth-child(2), #competences div:nth-child(5), #competences div:nth-child(8){
+        margin: 20px 20px;
+    }
+    
+    #competences img {
+        float: left;
+    }
+    
+    #competences p {
+        width: 60%;
+        font-size: 0.7em;
+        margin: 10px auto;
+        position: relative;
+        top: 25%;
+    }
+    
+    #bio p {
+        font-size: 0.8em;
+    }
+    
+    footer {
+        font-size: 0.8em;
+    }
+    
+    #code {
+        width: 100%;
+    }
+    
+    #contact {
+        width: 100%;
+    }
+}

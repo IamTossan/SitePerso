@@ -4,7 +4,12 @@
         <title>Albert Oudompheng - Développeur Web</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css" />
-    
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        
+        <script>
+            document.createElement( "picture" );
+        </script>
+        <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.2/dist/picturefill.min.js" async></script>
     </head>
     <body>
         <div id="wrapper">
@@ -20,7 +25,10 @@
             </header>
             
             <div id="banner">
-                <img src="images/header2.jpg" alt="coding" />
+                <picture>
+                    <source srcset="images/header_small.jpg" media="(max-width: 660px)" />
+                    <img srcset="images/header.jpg" alt="banner" />
+                </picture>
                 <div>
                     <h1>Albert Oudompheng - Développeur Web</h1>
                     <a href="CV%20-%20Albert%20Oudompheng%20-%20Developpeur%20web.pdf">Voir mon CV</a>
@@ -62,6 +70,10 @@
                     <img src="images/mysql.svg" />
                     <p>MySql</p>
                 </div>
+                <div>
+                    <img src="images/adobe-photoshop.svg" />
+                    <p>Photoshop, intégration d'un site web à partir de Photoshop</p>
+                </div>
             </section>
             
             
@@ -85,7 +97,11 @@
                 <div id="contact">
                     <h3>Contact</h3>
                     <ul id="email">
+                        <li><img src="images/businessman.svg" />Albert Oudompheng</li>
+                        <li><img src="images/call-answer.svg" />06 50 52 15 36</li>
                         <li><a href="mailto:tossanmusic@gmail.com"><img src="images/email.svg" />Tossanmusic@gmail.com</a></li>
+                        <li><img src="images/location-pin.svg" />1 place Salomon Mahlangu</li>
+                        <li>78280 Guyancourt</li>
                     </ul>
                     <ul id="social">
                         <li><a href="https://www.facebook.com/iamtossan"><img src="images/facebook.svg" /></a></li>
