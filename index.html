@@ -5,7 +5,7 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" type="text/css" href="style.css" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
+
         <script>
             document.createElement( "picture" );
         </script>
@@ -14,16 +14,16 @@
     <body>
         <div id="wrapper">
             <header>
-                
+
                 <ul>
                     <li><a href="#competences">compétences</a></li>
                     <li><a href="#bio">à propos de moi</a></li>
                     <li><a href="#footer">code de cette page</a></li>
                     <li><a href="#footer">contact</a></li>
                 </ul>
-            
+
             </header>
-            
+
             <div id="banner">
                 <picture>
                     <source srcset="images/header_small.jpg" media="(max-width: 660px)" />
@@ -34,9 +34,21 @@
                     <a href="CV%20-%20Albert%20Oudompheng%20-%20Developpeur%20web.pdf">Voir mon CV</a>
                 </div>
             </div>
-            
-            
-            <section id="competences">
+
+            <section id="portfolio" class="contenu">
+              <h2>Mes projets</h2>
+              <div>
+                  <a href="http://www.clashdeckmanager.byethost14.com">
+                    <img src="images/barbarian.png" />
+                  </a>
+                  <p>Clash Royale Deck Manager (angularJS 1)</p>
+                  <p><a href="http://www.clashdeckmanager.byethost14.com">
+                    Visiter
+                  </a></p>
+              </div>
+            </section>
+
+            <section id="competences" class="contenu">
                 <h2>Mes compétences</h2>
                 <div>
                     <img src="images/html.svg" />
@@ -49,6 +61,10 @@
                 <div>
                     <img src="images/javascript.svg" />
                     <p>Javascript</p>
+                </div>
+                <div>
+                    <img src="images/angularjs.svg" />
+                    <p>AngularJS 1</p>
                 </div>
                 <div>
                     <img src="images/jquery.svg" />
@@ -75,15 +91,15 @@
                     <p>Photoshop, intégration d'un site web à partir de Photoshop</p>
                 </div>
             </section>
-            
-            
+
+
             <section id="bio">
                 <h2>&#192; propos de moi</h2>
-                
+
                 <p>Je m'appelle Albert Oudompheng. J'ai commencé le développement web par curiosité et c'est rapidement devenu une vocation. J'aime découvrir, apprendre et me perfectionner au fil de mes différents projets.</p>
             </section>
-            
-        
+
+
             <footer id="footer">
                 <div id="code">
                     <h3>Code de cette page</h3>
@@ -110,9 +126,9 @@
                     </ul>
                 </div>
             </footer>
-        
+
         </div>
-        
+
     </body>
-    
+
 </html>
