@@ -96,6 +96,10 @@ header a:hover {
 
 /****** SECTION PORTFOLIO + COMPETENCES ******/
 
+.contenu {
+  padding: 0px 20px;
+}
+
 .contenu h2 {
     display: block;
     margin: 20px 40px;
@@ -248,6 +252,7 @@ footer:after {
 
     .contenu {
       margin: 25px auto;
+      padding: 0px 10px;
     }
 
     #portfolio {
@@ -303,6 +308,10 @@ footer:after {
 
     h2 {
         font-size: 1em;
+    }
+
+    .contenu {
+        padding: 0;
     }
 
     .contenu div {
